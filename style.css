@@ -1,0 +1,336 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Avenir", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 35px;
+  font-weight: lighter;
+  color: black;
+  margin: 0px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: medium;
+  color: black;
+  margin: 0px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+h3 {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: lighter;
+    color: black;
+    margin: 0px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #E3F7FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.containerheader {
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headertxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerimg {
+  height: 120px;
+  width: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%) brightness(110%);
+  }
+
+  .headerimg:hover {
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(10%);
+    }
+
+.mainrole {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+  /* MAIN */
+
+.main {
+  background-color: #F7FDFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main2 {
+
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .containermain {
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  }
+
+  .project1 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: auto;
+    width: 450px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .project1:hover {
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(10%);
+  }
+
+  .project2 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: auto;
+    width: 450px;
+    padding-bottom: 20px;
+  }
+
+  .project2:hover {
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(10%);
+  }
+
+  .role {
+    padding-bottom: 40px;
+    font-weight: normal;
+  }
+
+  a:hover .role {
+    font-weight: bold;
+    text-decoration-line: underline;
+    transition: font-weight 200ms ease-in-out;
+  }
+
+  .design {
+    padding-top: 20px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background-color: #E3F7FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .containerfooter {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  footer img {
+    height: 40px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+  }
+
+  footer img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+
+  .contactmail {
+    color: #32C5FF;
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .contactmail:hover {
+    text-decoration-line: underline;
+  }
+
+  .socialmediabuttons {
+    padding: 10px;
+  }
+
+
+ /* RESPONSIVE */
+
+  @media screen and (max-width: 960px) and (min-width: 840px) {
+  .project1 {
+    height: auto;
+    width: 400px;
+    }
+  .project2 {
+    height: auto;
+    width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 840px) and (min-width: 775px) {
+    .project1 {
+      height: auto;
+      width: 350px;
+      }
+    .project2 {
+      height: auto;
+      width: 350px;
+      }
+    }
+
+    @media screen and (max-width: 775px) and (min-width: 640px) {
+      .project1 {
+        height: auto;
+        width: 300px;
+        }
+      .project2 {
+        height: auto;
+        width: 300px;
+        }
+        h1 {
+          font-style: normal;
+          font-size: 28px;
+          font-weight: lighter;
+          color: black;
+          margin: 0px;
+          line-height: 30px;
+          letter-spacing: 2px;
+        }
+        
+        h2 {
+          font-style: italic;
+          font-size: 16px;
+          font-weight: medium;
+          color: black;
+          margin: 0px;
+          line-height: 18px;
+          letter-spacing: 2px;
+        }
+        
+        h3 {
+            font-style: normal;
+            font-size: 16px;
+            font-weight: lighter;
+            color: black;
+            margin: 0px;
+            line-height: 18px;
+            letter-spacing: 2px;
+        }
+        .mainrole {
+          font-size: 20px;
+          padding-bottom: 10px;
+        }
+      }
+
+      @media screen and (max-width: 640px) and (min-width: 380px) {
+        .project1 {
+          height: auto;
+          width: 380px;
+          }
+        .project2 {
+          height: auto;
+          width: 380px;
+          }
+          h1 {
+            font-style: normal;
+            font-size: 22px;
+            font-weight: lighter;
+            color: black;
+            margin: 0px;
+            line-height: 20px;
+            letter-spacing: 2px;
+          }
+          
+          h2 {
+            font-style: italic;
+            font-size: 16px;
+            font-weight: medium;
+            color: black;
+            margin: 0px;
+            line-height: 18px;
+            letter-spacing: 2px;
+          }
+          
+          h3 {
+              font-style: normal;
+              font-size: 16px;
+              font-weight: lighter;
+              color: black;
+              margin: 0px;
+              line-height: 18px;
+              letter-spacing: 2px;
+          }
+
+          .mainrole {
+            font-size: 20px;
+            padding-bottom: 10px;
+          }
+
+          footer img {
+            height: 40px;
+            width: auto;
+          }
+
+            .containermain {
+              max-width: 640px;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding-top: 10px;
+        }
+      }
